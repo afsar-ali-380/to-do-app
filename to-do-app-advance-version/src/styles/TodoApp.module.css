@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 50%;
+  margin: auto;
+}
+
+.app h1 {
+  text-align: center;
+}
+
+.addNewTodo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addNewTodo input {
+  width: 175px;
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.addNewTodo button {
+  width: 70px;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.emptyMsg {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list_Item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list_Item span {
+  width: 175px;
+  /* text-align: center; */
+  font-weight: 500;
+  padding: 0 4px;
+}
+
+.list_Item button {
+  width: 70px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+}
